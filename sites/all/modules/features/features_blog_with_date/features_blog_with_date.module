@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Features Blog with date feature.
+ */
+
+include_once 'features_blog_with_date.features.inc';

@@ -1,0 +1,16 @@
+name = Layout
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = features_blog_with_date
+dependencies[] = strongarm
+dependencies[] = user
+dependencies[] = views
+features[context][] = article_view
+features[ctools][] = context:context:3
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = page_manager_node_view_disabled
+features[variable][] = panelizer_defaults_node_article
+features[variable][] = panelizer_node:article_default

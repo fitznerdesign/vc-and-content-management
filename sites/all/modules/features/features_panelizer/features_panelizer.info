@@ -1,0 +1,16 @@
+name = Features Panelizer
+core = 7.x
+package = Features
+php = 5.2.4
+dependencies[] = ctools
+dependencies[] = panelizer
+dependencies[] = strongarm
+features[ctools][] = panelizer:panelizer:1
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[variable][] = default_panelizer_defaults
+features[variable][] = page_manager_node_view_disabled
+features[variable][] = panelizer_defaults_node_article
+features[variable][] = panelizer_node:article_allowed_layouts
+features[variable][] = panelizer_node:article_allowed_types
+features[variable][] = panelizer_node:article_default
