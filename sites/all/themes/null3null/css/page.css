@@ -1,0 +1,483 @@
+/* Page */
+
+/* Header */
+#page-top > header {}
+#logo {
+    border-right: 1px solid #A9B9D2;
+    float: left;
+    margin: 8px 23px 0 0;
+    padding: 10px 26px 10px 0;
+}
+#page-top > header > hgroup {
+    margin: 0 10px;
+}
+
+/* Social Media */
+#socialmedia {
+    float: right;
+    text-align: right;
+    margin-top: 23px;
+}
+#socialmedia a {
+    margin-left: 3px; 
+}
+#socialmedia a.contact {
+    background: url("../img/btn_socialmedia.png") no-repeat scroll left top transparent;
+    display: block;
+    float: left;
+    height: 0;
+    width: 33px;
+    padding-top: 33px;
+    overflow: hidden;
+}
+#socialmedia a.facebook{
+    background: url("../img/btn_socialmedia.png") no-repeat scroll -74px 0px transparent;
+    display: block;
+    float: left;
+    height: 0;
+    width: 33px;
+    padding-top: 33px;
+    overflow: hidden;
+}
+#socialmedia a.twitter {
+    background: url("../img/btn_socialmedia.png") no-repeat scroll -37px 0px transparent;
+    display: block;
+    float: left;
+    height: 0;
+    width: 33px;
+    padding-top: 33px;
+    overflow: hidden;
+}
+#socialmedia a.contact:hover {
+    background: url("../img/btn_socialmedia.png") no-repeat scroll left bottom transparent;
+}
+#socialmedia a.facebook:hover {
+    background: url("../img/btn_socialmedia.png") no-repeat scroll -74px -33px transparent;
+}
+#socialmedia a.twitter:hover {
+    background: url("../img/btn_socialmedia.png") no-repeat scroll -37px -33px transparent;
+}
+
+/**/
+#page-top {
+    background: url('../img/bg_header.png') repeat-x;
+    height: 94px;
+    overflow: hidden;
+}
+
+#page-nav {
+    background: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #ffffff;
+}
+
+/* ---------------- Suche ----------------- */
+.region-search {
+    height: 37px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.region-search #block-search-form {
+    margin: 5px 0 0;
+}
+.region-search form {
+    border: none;
+    margin: 0;
+}
+.region-search input.form-text {
+    border: 1px solid #D3D3D3;
+    float: left;
+    height: 27px;
+    margin-right: 0;
+    padding: 0 2px;
+    width: 125px;
+    font-style: italic;
+}
+#edit-search-block-form--6 {
+    background: #ffffff;
+}
+.region-search .form-submit {
+    position: absolute;
+    right: 3px;
+    top: 4px;
+}
+
+#site-name {}
+#site-name a    {}
+#site-name a:visited {}
+#site-name a:hover   {}
+#site-name a:focus   {}
+#site-name a:active  {}
+#site-slogan {}
+
+/* Page title */
+h1#page-title {}
+
+
+/* Page Stage */
+.page-stage-small {
+    border: 1px solid #D3D3D3;
+    display: block;
+    margin: 0;
+    max-height: 225px;
+    overflow: hidden;
+    position: relative;
+}
+.page-stage {
+    margin: 0;
+    position: relative;
+}
+.view-banners-for-overviews {
+    border: 1px solid #D3D3D3;
+    display: block;
+    margin: 0;
+    max-height: 225px;
+    overflow: hidden;
+}
+.page-stage-small .caption {
+    height: 225px;
+    position: relative;
+}
+.page-stage-small .description, .page-stage .description  {
+    background: url('../img/bg_stage_white.png') repeat;
+    bottom: 25px;
+    color: #0A306D;
+    font-size: 1.5em;
+    font-weight: bold;
+    left: 15px;
+    padding: 0.5% 1.5%;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+.page-stage-shadow {
+    background: url('../img/bg_stage_shadow.png') 5px top no-repeat;
+    height: 18px;
+}
+
+/* ---------- Views Slideshow ---------- */
+
+/* Banner */
+.views_slideshow_controls_text {
+    position: absolute;
+    bottom: 40px;
+    z-index: 100;
+    width: 100%;
+}
+.views-slideshow-controls-text-previous {
+    position: absolute;
+    right: 50px;
+    width: 29px;
+    height: 0px;
+    overflow: hidden;
+    padding: 29px 0 0 0;
+    background: url('../img/btn_stage_arrows.png') no-repeat left top;
+}
+.views-slideshow-controls-text-next {
+    position: absolute;
+    right: 15px;
+    width: 29px;
+    height: 0px;
+    overflow: hidden;
+    padding: 29px 0 0 0;
+    background: url('../img/btn_stage_arrows.png') no-repeat right top;
+}
+.views-slideshow-controls-text-pause {
+    display: none;
+}
+
+/* Stage */
+.view-stageslider {
+    border: 1px solid #D3D3D3;
+    float: left;
+    position: relative;
+    width: 978px;
+}
+.view-stageslider .views-slideshow-controls-top {
+    float: left;
+    width: 233px;
+}
+.view-stageslider .views_slideshow_cycle_main {
+    float: right;
+    width: 745px;
+    height: 400px;
+}
+.view-stageslider .views-slideshow-pager-field-item {
+    height: 99px;
+    border-bottom: 1px solid #d3d3d3;
+    background: #ffffff;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: #686767;
+    font-weight: bold;
+    font-family: Open Sans, Arial, Helvetica, Sans-serif;
+    overflow: hidden; 
+    display: table;
+}
+.view-stageslider .active {
+    background: url('../img/bg_stage_activeslide.png') repeat-x left top;
+    color: #ffffff;
+}
+.view-stageslider .views-slideshow-pager-field-item .views-field-title {
+    display: table-cell; 
+    vertical-align: middle;
+    width: 233px;
+    text-align: center;
+    margin: 0 auto;
+    background: url('../img/bg_stage_arrow_inactive.png') no-repeat 98% center;
+}
+.view-stageslider .active .views-field-title {
+    background: url('../img/bg_stage_arrow_active.png') no-repeat 98% center;
+}
+
+.view-stageslider .views-content-title {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.view-stageslider .stagecaption {
+    background: url('../img/bg_stage_white.png') repeat;
+    bottom: 20px;
+    padding: 10px;
+    position: absolute;
+    right: 15px;
+    color: #000000;
+    max-width: 345px;
+}
+.view-stageslider .stagecaption h2 {
+    color: #0a306d;
+    margin-bottom: 0;
+}
+.view-stageslider .stagecaption p {
+    color: #000000;
+    font-size: 1em;
+}
+.view-stageslider .stagecaption ul {
+    list-style: none;  
+    margin: 0 0 0.5em 1em;
+    font-size: 1em;
+}
+.view-stageslider .stagecaption ul li {
+    background: url('../img/icon_list.png') no-repeat left center; 
+    padding-left: 25px;
+    line-height: 1.8em;
+    color: #000000;
+}
+
+/* Regions */
+.region-leaderboard {}
+.region-header {}
+.region-secondary-content {}
+.region-highlighted {}
+.region-content-aside {}
+.region-tertiary-content {}
+.region-footer {}
+
+
+/* ---------- Content ----------- */
+#content-wrapper {
+    background-color: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    display: block;
+    padding: 15px 10px;
+}
+
+#overview #content-wrapper {
+    margin-top: 20px;
+}
+
+.content-content {
+    border-right: 1px solid #D3D3D3;
+    float: left;
+    margin-right: 2%;
+    padding-left: 1%;
+    padding-right: 2%;
+    width: 63.5%;
+}
+
+/* Content Columns */
+/* 2 Columns */   
+.two-50 section {
+
+}
+.article-ansicht-2-spalter {
+    min-height: 325px;
+    padding: 0% 3%;
+    position: relative;
+    text-align: center;
+    border-right: 1px solid #D3D3D3;
+    float: left;
+}
+.region:nth-child(2) .article-ansicht-2-spalter {  
+    border-right: none;
+}
+
+.article-ansicht-2-spalter .field-name-body {
+    min-height: 150px;
+}
+.article-ansicht-2-spalter p {
+    color: #545454;
+    line-height: 1.5em;
+    font-size: 1em;
+}
+.field-name-field-inhaltsbild {
+    float: left;
+    width: 100%;
+    min-height: 130px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+}
+.article-ansicht-2-spalter img {
+    border: 1px solid #d3d3d3;
+    padding: 0;
+    margin: 0;
+}
+
+/* Sidebars */
+.sidebar {}
+.region-sidebar-first {}
+.region-sidebar-second {}
+
+#sidebar-second {
+    float: left;
+    width: 30.6%;
+}
+#sidebar-second .article-ansicht-sidebar {
+    border-bottom: 1px solid #D3D3D3;
+    margin: 0 0 15px;
+    padding: 0 0 10px;
+}
+
+/* Aside */
+
+/* Grey Blocks */
+.three-3x33 .region,
+.three-3x33 .pane-node,
+.two-33-66 .region-two-33-66-first,
+.two-66-33 .region-two-66-33-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    box-shadow: 0 5px 8px -2px #B8B8B8;
+    text-align: center;
+    -webkit-box-shadow: 0 5px 8px -2px #B8B8B8;
+    min-height: 185px;
+}
+.three-3x33 .pane-node h2 {
+    margin: 0;
+}
+.three-3x33 .pane-node h2 a {
+    color: #686767;
+    font-family: Open Sans, Arial, Helvetica, sans-serif;
+    font-size: 1.313em;
+    font-weight: 600;
+}
+
+/* 4 Columns */
+.four-4x25 {
+    border-top: 1px solid #d3d3d3;
+    margin-top: 25px;
+}
+.field-name-field-weitere-inhalte:nth-child(4) .article-ansicht-4-spalter {
+    border: none;
+}
+/* Footer - the main page footer only */
+#page-bottom {
+    color: #ffffff;
+    background: url('../img/bg_footer.png') repeat-x #082555;
+    margin: 35px 0 0 0;
+}
+#page-bottom .four-4x25 {
+    border-top: none;
+    margin: 0 0 2% 0;
+}
+#page-bottom .four-4x25 .region {
+    border-right: 1px solid #96a9c8;
+    min-height: 290px;
+}
+
+#page-bottom .connect_widget {
+    background-color: white;
+}
+#page-bottom h2 {
+    color: #96a9c8;
+}
+#page-bottom p, #page-bottom a {
+    color: #ffffff;
+    line-height: 1.9em;
+}
+#page-bottom .four-4x25 .region-four-fourth {
+    border: none;
+}
+.fb-like-box {
+    background: none repeat scroll 0 0 #c9d3e2;
+    margin-left: 20px;
+    position: relative;
+}
+#page-bottom ul.menu li {
+    margin: 0;
+}
+#page-bottom ul li.leaf {
+    list-style: none;
+}
+#page-bottom li.expanded, li.collapsed, li.leaf {
+    padding: 0.2em 0.5em 0 0;
+}
+/* Feed icons */
+#feed-icons {}
+#feed-icons .feed-icon {}
+#feed-icons .feed-icon img {}
+#feed-icons a.feed-icon {}
+
+/* Search results list. */
+.search-results {}
+.search-results .search-result {}
+.search-results .title {}
+.search-results .search-snippet-info {}
+.search-results p {}
+.search-results .search-snippet {}
+.search-results .search-info {}
+
+span.search-info-type {}
+span.search-info-user {}
+span.search-info-date {}
+span.search-info-comment {}
+span.search-info-upload  {}
+
+/* Aggregator */
+.feed-item {}
+.feed-item header {}
+.feed-item-title {}
+.feed-item-meta {}
+.feed-item .content {}
+.feed-item footer {}
+.feed-source {}
+.feed-description {}
+
+/* Maintenance page */
+.maintenance-page #skip-link {
+    position: absolute;
+    top: -99em;
+}
+.maintenance-page footer {
+    margin: 10px 0 0;
+}
+.maintenance-page footer a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+/* Prevent overflowing content */
+header[role=banner],
+.content-inner,
+.nav,
+.region-sidebar-first,
+.region-sidebar-second,
+.region-secondary-content,
+.region-tertiary-content,
+.region-footer {
+    overflow: visible;
+    word-wrap: break-word;
+}
+

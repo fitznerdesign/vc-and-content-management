@@ -1,0 +1,236 @@
+/* html elements */
+
+/**
+ * The default font size is 16px x 81.3% = 13px
+ * Use http://pxtoem.com to calculate proper font size and scale.
+ *
+ * The font size is set on the html element so we can dynamically
+ * resize the font using body classes.
+ */
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Open Sans,arial,helvetica,sans-serif;
+  line-height: 1.5;
+  font-size: 0.875em;
+}
+h1 {
+    color: #EEEEEE;
+    float: left;
+    font-family: Open Sans,arial,helvetica,sans-serif;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+h2 {
+    color: #686767;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #000000;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+h3 a {
+    color: #000000;
+    font-size: 0.95em;
+    text-decoration: none;
+}
+h3 a:hover {
+    text-decoration: underline;
+}
+h3 {
+}
+h4 {
+  font-size: 1.077em;
+}
+h5,
+h6 {
+  font-size: 1em;
+}
+a {
+    color: #0e4194;
+    font-family: arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+  border: none;
+}
+img {
+  max-width: 100%; /* flexible images - can cause issues in table cells where no width is set on the column, only in webkit and IE 7/8 */
+  height: auto;
+}
+
+
+/* --------------- Headlines/Pragraphs in Content ---------------- */
+#sidebar-second h2 {
+    font-size: 1em;
+}
+
+#sidebar-second p {
+    color: #545454;
+    line-height: 1.4em;
+}
+
+.three-3x33 h3 {
+    color: #686767;
+    font-family: Open Sans,Arial,Helvetica,sans-serif;
+    font-size: 1.25em;
+    margin-bottom: 0.5%;
+    margin-top: 2%;
+    text-transform: uppercase;
+}
+.three-3x33 h3 a {
+    color: #686767;
+}
+
+/* ------------- Buttons Start ------------- */
+    /* General */
+#sidebar-second .field-name-node-link a, .article-ansicht-4-spalter .field-name-node-link a, .view-stageslider .stagecaption a {
+    background: url("../img/bg_readmore.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #D3D3D3;
+    color: #FFFFFF;
+    float: right;
+    padding: 2px 10px 2px 5px;
+    text-align: right;
+    text-decoration: none;
+    font-size: 0.875em;
+}
+#sidebar-second .field-name-node-link a:hover, .article-ansicht-4-spalter .field-name-node-link a:hover {
+    text-decoration: underline;
+}
+    /* Custom */
+        /* 4 Columns */
+.article-ansicht-4-spalter .field-name-node-link {
+    bottom: 0;
+    position: absolute;
+    right: 5%;
+}
+/* ------------- Buttons End ------------- */
+
+p {
+    color: #282828;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.875em;
+    margin: 0 0 0.6em;
+    padding: 0;
+}
+em,
+dfn {
+  font-style: italic;
+}
+ins {
+  border-bottom: none;
+  text-decoration: none;
+}
+pre,
+code,
+tt,
+samp,
+kbd,
+var {
+  font-size: 1em;
+  font-family: Consolas, "Lucida Console", Menlo, Monaco, "DejaVu Sans Mono", monospace, sans-serif; /* sans-serif Safari hack */
+}
+blockquote,
+q {
+  font-style: italic;
+  quotes: "" "";
+}
+blockquote {
+  margin: 0 0 1.5em;
+  padding: 0 0 0 3em;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+blockquote p {
+  margin: 0;
+}
+strong,
+dfn,
+caption,
+th {
+  font-weight: 700;
+}
+
+/* Lists */
+ul,
+ol {
+  margin: 0 0 1.5em 40px;
+  padding: 0;
+}
+.item-list ul,
+.item-list ol {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+.item-list ul li {
+  margin: 0;
+  padding: 0;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul,
+.block ul ul,
+.block ul ol,
+.block ol ol,
+.block ol ul,
+.item-list ul ul,
+.item-list ul ol,
+.item-list ol ol,
+.item-list ol ul {
+  margin-bottom: 0;
+}
+ul {
+    color: #282828;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.875em;
+    list-style-type: disc;
+}
+ul ul ul {
+  list-style-type: square;
+}
+ol {
+  list-style-type: decimal;
+}
+ol ol {
+  list-style-type: lower-alpha;
+}
+ol ol ol {
+  list-style-type: lower-roman;
+}
+ul ul,
+ul ul ul ul {
+  list-style-type: circle;
+}
+dt {
+  font-weight: 700;
+}
+dd {
+  margin: 0 0 1.5em 40px;
+}
+
+/* ---------- Custom List Elements ---------- */
+ul.breadcrumb-line {
+    display: inline;
+    margin: 0 0 20px 0;
+    color: #595959;
+}
+
+ul.breadcrumb-line #crumbs {
+    clear: none;
+    display: inline;
+}
