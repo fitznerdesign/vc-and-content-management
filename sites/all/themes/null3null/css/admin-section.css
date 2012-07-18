@@ -1,0 +1,152 @@
+/**
+ * NOTE: This file is not loaded by default, to use it you must un-comment
+ * it in your themes info file. These styles provide a very basic admin
+ * section, however you should really use a proper admin theme like AT Admin,
+ * Root Candy or Seven.
+ */
+div.admin-panel {
+  border: 1px solid #ddd;
+  margin: 0 0 .75em;
+  padding: 0;
+}
+div.admin .left,
+div.admin .right {
+  margin-left: 0;
+  margin-right: 0;
+  width: 49%;
+}
+.admin-panel h3 {
+  background: #eee;
+  color: #222;
+  padding: 0 0 0 .5em;
+}
+.admin-panel .body {
+  padding: 0 1em;
+}
+.admin-panel p {
+  margin: 0;
+  padding: 1em 0 0;
+}
+.admin-panel ul,
+.admin-panel ul.menu,
+.admin-panel .item-list ul {
+  padding: 0 0 1em;
+}
+.admin-panel ul li {
+  color: #555;
+}
+.admin-panel dl {
+  margin: 0;
+  padding: 1em 0;
+}
+.admin-panel dd {
+  color: #555;
+  font-size: .923em;
+  margin-left: 0;
+}
+.admin .compact-link {
+  margin: 0 0 1em;
+}
+.page-admin-by-module .admin-panel .body p {
+  color: #555;
+  font-size: .923em;
+}
+.more-help-link {
+  font-size: .923em;
+  line-height: 1.538em;
+}
+#permissions td.permission {
+  padding-left: .5em;
+}
+#permissions td.module {
+  background: #eee;
+  color: #222;
+  font-weight: 700;
+}
+tr .block {
+  border: 0;
+}
+.admin-panel dt {
+  font-weight: 400;
+}
+.admin-dependencies,
+.admin-required,
+.admin-enabled,
+.admin-disabled,
+.admin-missing {
+  font-weight: 700;
+}
+.admin-panel .item-list ul,
+.page-admin-by-module .admin-panel .body {
+  margin: 0;
+}
+.logged-in .two-50 .panels-ipe-region {
+  width: 100%;
+}
+.logged-in .two-50 section .region {
+    width: 50%;
+}
+.logged-in .two-50 .panels-ipe-region .article-ansicht-2-spalter {
+  width: 94%;
+}
+.logged-in .two-50 .panels-ipe-region .article-ansicht-2-spalter {
+  padding: 0% 3%;
+}
+.logged-in .three-3x33 .panels-ipe-placeholder {
+    min-height: 185px;
+}
+
+.logged-in .three-3x33 .panels-ipe-region {
+    float: left;
+    padding: 0;
+    margin: 1%;
+    width: 31.33%;
+}
+.logged-in .four-4x25 .panels-ipe-region {
+    float: left;
+    margin: 2% 0 0;
+    padding: 0% 1.5%;
+    width: 21.8%;
+    border-right: 1px solid #d3d3d3;   
+}
+.logged-in .four-4x25 .panels-ipe-region .article-ansicht-4-spalter {
+    float: left;
+    margin: 2% 0 0;
+    padding: 0% 1.5%;
+    width: 100%;
+    border: none;
+    min-height: 100px;
+}
+
+.logged-in .three-3x33 .panels-ipe-placeholder {    
+}
+
+.logged-in .pane-node {
+    width: auto;
+}
+
+#admin-menu a {
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+#admin-menu ul {
+    font-size: 1em;
+}
+
+#admin-menu .dropdown .admin-menu-tab {
+  background: #0E4194;
+  padding-bottom:1px;
+}
+#admin-menu .dropdown .admin-menu-tab a {
+  font-weight: bold;
+  font-size: 1.3em
+}
+#admin-menu .dropdown .admin-menu-tab a:hover {
+  text-decoration: underline;
+}
+#admin-menu .dropdown .active a {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+

@@ -1,0 +1,164 @@
+/* 
+    Document   : codaslider
+    Created on : 24.05.2012, 12:27:34
+    Author     : Sebastian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+    Document   : coda-slider
+    Created on : 10.04.2012, 17:35:23
+    Author     : Marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+Copyright (c) 2009 Niall Doherty
+This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Most common stuff you'll need to change */
+
+.block-om-maximenu h2.block-title{display:none;}
+/* Panel padding */
+.coda-slider { background: #000; }
+
+.coda-slider .panel-wrapper { 
+    padding: 20px;
+
+
+}
+
+/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+.coda-slider-no-js .coda-slider { height: 250px; overflow: auto !important; padding-right: 20px }
+
+/* Change the width of the entire slider (without dynamic arrows) */
+.coda-slider, .coda-slider .panel { width: 950px; max-height:450px; background:none;} 
+
+/* Change margin and width of the slider (with dynamic arrows) */
+.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 940px }
+.coda-slider-wrapper.arrows .coda-slider { margin: 0 auto; padding:0; }
+
+/* Arrow styling */
+.coda-nav-left a, .coda-nav-right a { background: black; color: #666666; padding: 10px; width: 0px; text-decoration:none;}
+
+/* Preloader */
+.coda-slider p.loading { padding: 0px; text-align: center; width:100%; }
+
+
+/* Don't change anything below here unless you know what you're doing */
+
+/* Tabbed nav */
+.coda-nav ul li {
+    display: inline;
+    float: left;
+    height: 37px;
+}
+.coda-nav ul li a { 
+    display: block; 
+    float: left; 
+    margin-right: 0px; 
+    text-decoration:none; 
+    text-transform:uppercase;
+    font-family: Open Sans,arial,helvetica,sans-serif;
+    font-weight: bold;
+}
+
+/* Miscellaneous */
+.coda-slider-wrapper { clear: both; overflow: auto }
+.coda-slider { float: left; overflow: hidden; position: relative }
+.coda-slider .panel { display: block; float: left }
+.coda-slider .panel-container { position: relative; display:none; line-height: normal;}
+.coda-nav-left, .coda-nav-right { float: left; display:none; }
+.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
+
+
+
+
+/* City Challenge Corporate */
+/* Top Navigation */
+
+#top-nav .coda-slider-wrapper { 
+    padding: 0px 0px; 
+    width:100%; 
+    background: url("../img/nav_top_bg.png") repeat-x scroll 0 0 transparent; 
+}
+
+#coda-nav-1 {
+    margin-left:auto;
+    margin-right:auto;
+    width:980px;
+}
+#coda-nav-1 .tab5, #coda-nav-1 .tab6, #coda-nav-1 .tab7, #coda-nav-1 .tab8, #coda-nav-1 .tab9 {
+    float:right; margin:0;padding:0;
+}
+#coda-slider-main-navigation .panel-wrapper h2.title {
+    display: none;
+}
+#coda-slider-main-navigation .panel-wrapper h2{
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+#coda-nav-1 .panel {
+    position:relative;
+    top:100px;left:50%; margin-left:-490px;
+    width:980px;
+    padding:0 20px;
+}
+
+/* Language Menu Punkt */
+#coda-nav-1 .tab5 a {
+    color:#09285B;
+}
+/* Login Menu Punkt */
+#coda-nav-1 .tab6 {
+    font-weight:bold;
+}
+/* Tabbed nav */
+#coda-nav-1 ul li a { 
+    color: #333333; 
+    font-size: 12px;
+    padding: 9px 10px 10px;
+}
+#coda-nav-1 ul li a:hover { background: none; color:#09285B; text-decoration:none;}
+#coda-nav-1 ul li a.current { 
+    background: url('../img/bg_mainnav_arrow.png') no-repeat center -10px; 
+    color:#09285B; 
+}
+
+#top-nav #coda-slider-main-navigation { 
+    position:relative; 
+    margin:0; 
+    margin-top:35px; 
+    left:50%; 
+    margin-left:-490px; 
+    overflow:hidden; 
+    background: none;
+}
+
+/* Main Navigation */
+#nav-global {
+    position:relative; 
+    overflow: hidden;
+    margin: 20px auto;
+    width: 980px;  
+    border:0;
+    background:#151515;
+    border-radius: 5px; /* CSS3 - IE roundies.js */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+
+#coda-nav-2 ul li a { color:white;}
+#coda-nav-2 ul li a:hover { background: black; color: #690; text-decoration:none;}
+#coda-nav-2 ul li a.current { background: black; color: #690; }
+#coda-nav-2 li.last { margin-right: 0; }
+
+
+/* Main Navigation */
+
+
